@@ -7,7 +7,7 @@
     text-decoration: none;
     font-size: 40px;
 }
-
+button { display: block; }
 .horiz-nav {
     display: flex;
     flex-direction: row;
