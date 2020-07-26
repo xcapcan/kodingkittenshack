@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Main Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="recipeform.css">
+</head>
+<body>
+
+<a class = "home-button" href="index.html">
+    <img id="logo" src="images/logo.png" alt="home-logo">
+</a>
+
+<nav>
+    <ul class="horiz-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="appliances.html">Appliances</a></li>
+        <li><a href="myprofile.html">My Profile</a></li>
+    </ul>
+</nav>
+
+<h1>Add a new recipe</h1>
+
+<form>
+    <div class="form">
+    <label class="form-labels" for="mname">Meal name:</label><br>
+    <input class="form-items" type="text" id="mname" name="mname" value=""><br>
+    <input class="form-items" type="text" id="minstructions" name="minstructions" value="Type your instructions here..."><br>
+    <label class="form-labels" for="difficulty">Choose level of difficulty:</label>
+  <select class="form-items" id="difficulty" name="difficulty">
+    <option value="easy">Easy</option>
+    <option value="medium">Medium</option>
+    <option value="hard">Hard</option>
+    </select>
+    <label class="form-labels" for="mealtype">Choose type of meal</label>
+    <select class="form-items" id="mealtype" name="mealtype">
+    <option  value="breakfast">Breakfast</option>
+    <option  value="lunch">Lunch</option>
+    <option  value="dinner">Dinner</option>
+    </select>
+    <label class="form-labels" for="restrictions">Is the meal vegan/vegetarian?</label>
+    <select class="form-items" id="restrictions">
+    <option value="yes">Yes</option>
+    <option value="no">No</option>
+    </select>
+    <input class="form-items" id="submit" type="submit" value="Submit">
+    </div>
+</form> 
+
+</body>
+</html>

@@ -32,34 +32,42 @@ a {
 
 h1 {
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
 }
 
-.profile-info {
+form{
     display: flex;
-    padding-left: 200px;
+    flex-direction: column;
     
-}
-
-.profile-block{
-    display: flex;
-    background-color: #F2CD5E;
-    padding: 20px;
-    width: 900px;
-}
-
-#profile-pic {
-    height: 250px;
-    width: 170px;
-    border: white solid 20px;
-}
-
-#user-name {
     font-family: 'Montserrat', sans-serif;
-    align-self: center;
-    margin-top: 70px;
-    padding: 0px 20px;
 }
 
-#add-recipe-button {
+.form {
+    display: flex;
+    flex-direction: column;
+    
+    width: 700px;
+    margin-left: 350px;
+}
+
+.form-items {
+    padding:15px;
     margin: 0px 20px;
+}
+.form-labels{
+    padding:15px;
+    margin: 0px 5px;
+}
+
+#minstructions{
+    margin: 20px;
+    padding-bottom: 100px;
+}
+
+#submit{
+    margin: 20px;
+    background-color: #D92938;
+    border: none;
+    color: white;
 }
