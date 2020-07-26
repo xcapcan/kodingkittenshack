@@ -1,29 +1,58 @@
 .home-button {
     display: flex;
     justify-content: center;
-    color: #D92938;
-    background-color: indianred;
-    font-family: 'Pacifico', cursive;
-    text-decoration: none;
-    font-size: 40px;
-}
-button { display: block; }
-.horiz-nav {
+  }
+  
+  #logo {
+    height: 30%;
+    width: 30%;
+  }
+  button { display: block; }
+  .horiz-nav {
     display: flex;
     flex-direction: row;
-    background-color: grey;
+    background-color: #518C29;
     justify-content: center;
-}
-
-li{
+  }
+  
+  li{
     display: flex;
     justify-content: center;
     padding: 10px 10px;
-}
-
-a {
+  }
+  
+  a {
     text-decoration: none;
     color: black;
     font-size: 20px;
-    font-family: 'Pacifico', cursive;
-}
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+  }
+  
+  .links{
+    float: left;
+  }
+  
+  .nav-buttons{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px 20px;
+  }
+  
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  #myInput {
+      background-image: url('/css/searchicon.png'); 
+      background-position: 10px 12px; 
+      background-repeat: no-repeat; 
+      width: 100%;
+      font-size: 16px; 
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px; 
+      font-family: 'Montserrat', sans-serif;
+    }
