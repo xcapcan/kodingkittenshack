@@ -96,3 +96,12 @@ function Spiralizer() {
 
     S.style.display = displayValue;
 }
+
+function MM() {
+    var MM = document.getElementById("MM"),
+        displayValue = "";
+    if (MM.style.display == "")
+        displayValue = "none";
+
+    MM.style.display = displayValue;
+}
