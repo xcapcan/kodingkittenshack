@@ -16,15 +16,27 @@
 }
 
 li{
-    display: flex;
-    justify-content: center;
-    padding: 10px 10px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
 }
 
 a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 20px;
+}
+
+.links{
+  float: left;
+}
+
+.nav-buttons{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   padding: 5px 20px;
 }
