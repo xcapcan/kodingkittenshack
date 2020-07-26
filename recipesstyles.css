@@ -1,18 +1,18 @@
 .home-button {
-    display: flex;
-    justify-content: center;
-    color: #D92938;
-    background-color: indianred;
-    font-family: 'Pacifico', cursive;
-    text-decoration: none;
-    font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#logo {
+  height: 30%;
+  width: 30%;
 }
 
 .horiz-nav {
-    display: flex;
-    flex-direction: row;
-    background-color: grey;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  background-color: #518C29;
+  justify-content: center;
 }
 
 li{
@@ -22,10 +22,15 @@ li{
 }
 
 a {
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-    font-family: 'Pacifico', cursive;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 5px 20px;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 #myInput {
@@ -37,6 +42,7 @@ a {
     padding: 12px 20px 12px 40px;
     border: 1px solid #ddd;
     margin-bottom: 12px; 
+    font-family: 'Montserrat', sans-serif;
   }
   
   #myTable {
@@ -44,17 +50,21 @@ a {
     width: 100%; 
     border: 1px solid #ddd; 
     font-size: 18px; 
+    font-family: 'Montserrat', sans-serif;
   }
   
   #myTable th, #myTable td {
     text-align: left; 
     padding: 12px; 
+    font-family: 'Montserrat', sans-serif;
   }
   
   #myTable tr {
     border-bottom: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif;
   }
   
   #myTable tr.header, #myTable tr:hover {
     background-color: #f1f1f1;
+    font-family: 'Montserrat', sans-serif;
   }
